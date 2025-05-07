@@ -17,6 +17,9 @@ import {
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 
+import nextConfig from "../next.config.mjs";
+const BASE_PATH = nextConfig.basePath || "";
+
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col">
@@ -73,7 +76,7 @@ export default function Home() {
               </div>
               <div className="flex items-center justify-center">
                 <Image
-                  src="/abstract-digital-code.png"
+                  src={`${BASE_PATH}/abstract-digital-code.png`}
                   alt="CodeX"
                   width={550}
                   height={550}
@@ -314,7 +317,7 @@ export default function Home() {
             <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
               <div className="flex items-center justify-center">
                 <Image
-                  src="/professional-computer-work.png"
+                  src={`${BASE_PATH}/professional-computer-work.png`}
                   alt="About CodeX"
                   width={550}
                   height={550}
