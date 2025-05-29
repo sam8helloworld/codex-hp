@@ -368,7 +368,7 @@ export default function Home() {
                   <CardDescription>プロジェクトについてのご相談はこちらから</CardDescription>
                 </CardHeader>
                 <CardContent className="flex justify-center">
-                  <Link href="https://forms.gle/your-google-form-link" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://forms.gle/UFb2JkjgEyJQCy4U7" target="_blank" rel="noopener noreferrer">
                     <Button size="lg" className="w-full">
                       Googleフォームを開く
                       <ArrowRight className="ml-2 h-4 w-4" />
